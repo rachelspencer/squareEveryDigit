@@ -12,13 +12,11 @@
 function squareDigits(num){
     const numArr = String(num).split("");
   
-      const result = numArr.map((num) => {
-          return num ** 2
-      } 
-      )
+    const result = numArr.map((num) => {
+        return num ** 2 } 
+    );
        
-      return parseInt(result.join(""))
-  }
-
+    return parseInt(result.join(""));
+  };
 
 console.log(squareDigits(9119));
